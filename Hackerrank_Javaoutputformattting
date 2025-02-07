@@ -1,4 +1,4 @@
-# Problem_Statement ---  Java's System.out.printf function can be used to print formatted output. The purpose of this exercise is to test your understanding of formatting output using printf
+/* #Problem_Statement ---  Java's System.out.printf function can be used to print formatted output. The purpose of this exercise is to test your understanding of formatting output using printf
 
 To get you started, a portion of the solution is provided for you in the editor; you must format and print the input to complete the solution.
 
@@ -31,9 +31,9 @@ python         050
 
 ###Explanation
 Each String is left-justified with trailing whitespace through the first  characters. The leading digit of the integer is the  character, and each integer that was less than  digits now has leading zeroes.
+*/
 
-
-##code Solution 
+//##code Solution 
 import java.util.Scanner;
 
 public class Solution {
@@ -52,6 +52,7 @@ public class Solution {
     }
 }
 
+/*
 #Explanation
 # System.out.printf("%-15s%03d\n",s1,x);
 
@@ -65,3 +66,4 @@ This code explains the main functionality
 #same functionality for integer  
 %03d - 065  - added zero before the given value.  eg .  65  -->  065
 
+*/
